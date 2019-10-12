@@ -99,7 +99,6 @@ nav a:first-child {
 /* footer */
 
 footer {
- 
   background: #666666;
   border-top: 14px solid #4aaaa5;
 }
@@ -169,6 +168,16 @@ h3, h2 {
   margin-top: 10px;
   margin-right: 25px;
 }
+.align-self-start {
+  width: 200px;
+}
+.media-body {
+  font-size: 24px;
+}
+.mt-0{
+  font-size: 36px;
+}
+
 
 /* contact page */
 

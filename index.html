@@ -6,6 +6,7 @@
   <title>About | Andrew Hardemon</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -14,39 +15,51 @@
     <div class="container">
       <a href="index.html" id="logo">Andrew Hardemon</a>
       <nav>
-        <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">About</a>
-        <a href="portfolio.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Portfolio</a>
-        <a href="contact.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Contact</a>
+        <a href="index.html" class="btn btn-primary btn-lg active btn-sm" role="button" aria-pressed="true">About</a>
+        <a href="portfolio.html" class="btn btn-primary btn-lg active btn-sm" role="button" aria-pressed="true">Portfolio</a>
+        <a href="contact.html" class="btn btn-primary btn-lg active btn-sm" role="button" aria-pressed="true">Contact</a>
       </nav>
     </div>
   </header>
-
+ 
+ 
   <div id="main-container" class="container">
     <section class="main-section">
-      <div class="media">
-        <img src="assets/images/cat.jpg" class="align-self-start mr-3" alt="Andrew Hardemon">
-        <div class="media-body">
-          <h4 class="mt-0">About Me</h4>
+      <div class="row">
+        <div class=col-lg-6>
+          <div class="media">
+            <img src="assets/images/cat.jpg" class="align-self-start mr-3" alt="Andrew Hardemon">
+          </div>
+        </div>
+        <div class=col-lg-4>
+          <div class="media-body">
+            <h4 class="mt-0">About Me</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
           <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
 
           <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </div>
-      </div>
     </section>
   </div>
 
 
+
+</div>
+
   <!-- Footer -->
-  <footer class="page-footer font-small blue">
+  <footer class="page-footer font-small blue fixed-bottom">
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
       <a href="#"> Andrew Hardemon</a>
     </div>
     <!-- Copyright -->
-  
+    
   </footer>
 </body>
 
